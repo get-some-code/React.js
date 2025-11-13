@@ -8,14 +8,15 @@ function App() {
 
   const addValue = ()=>{
     setCounter(counter+1);
-    console.log("clicked ",counter);
     // document.getElementById('first').textContent = `Counter value: ${counter}`;
     
   }
 
   const subtractValue = ()=>{
-    setCounter(counter-1);
-    console.log("clicked ",counter);
+    if (counter > 0){
+      setCounter(counter-1);
+    }
+    else return;
     // document.getElementById('first').textContent = `Counter value: ${counter}`;
   }
 
