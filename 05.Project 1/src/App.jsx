@@ -3,7 +3,7 @@ import './App.css'
 import Button from './components/button' 
 
 function App() {
-  const [color, setColor] = useState("gray")
+  const [color, setColor] = useState("gray") //gray is just the initial value of the state
 
   return (
     <>
