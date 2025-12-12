@@ -11,9 +11,10 @@ function Navigation() {
 
   const sections = [
     { id: "basic", label: "Basic Props", icon: "🧃" },
+    { id: "ref", label: "Ref Props", icon: "🧩" },
     { id: "children", label: "Children Props", icon: "🧒" },
     { id: "complex", label: "Complex Props", icon: "🧩" },
-    { id: "ref", label: "Ref Props", icon: "🧩" },
+    
     { id: "theme", label: "Theme Props", icon: "💐" }
   ];
 
