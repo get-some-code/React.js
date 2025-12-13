@@ -4,7 +4,7 @@ import BasicProps from './components/BasicProps.jsx'
 import RefProps from './components/RefProps.jsx'
 import ChildrenProps from './components/ChildrenProps.jsx'
 import ComplexProps from './components/ComplexProps.jsx'
-import ThemeToggler from './components/ThemeToggler.jsx'
+import ThemeToggler, {ThemeProvider, useTheme} from './components/ThemeToggler.jsx'
 
 
 function Navigation() {
@@ -56,7 +56,7 @@ function Navigation() {
 };
 
 function AppContent() {
-  const isDark = true;
+  const {isDark} = useTheme();
   return (
     <div className={`min-h-screen bg-linear-to-br from-gray-900 via-gray-800 to-black p-6`}>
       <Navigation />
@@ -88,7 +88,7 @@ function AppContent() {
             <ThemeToggler />
           </div>
         </div>
-        <footer className={`mt-16 text-center pb-8 ${isDark ? "text-gray-300" : "text-gray-600"}`}>
+        <footer className={`mt-16 text-center pb-8 text-gray-300`}>
           <p className='text-sm opacity-80 hover:opacity-100 transition-opacity duration-300'>
             Made with ♥️ using Bun, Vite, React, and Tailwind CSS
           </p>
@@ -100,9 +100,9 @@ function AppContent() {
 
 function App() {
   return (
-    <>
+    <ThemeProvider>
       <AppContent />
-    </>
+    </ThemeProvider>
   )
 }
 
