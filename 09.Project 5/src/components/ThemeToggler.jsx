@@ -23,8 +23,8 @@ export function ThemeProvider({ children }) {
         className={`
           min-h-screen transition-colors duration-500
           ${theme === 'dark'
-            ? 'bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-gray-100'
-            : 'bg-gradient-to-br from-white via-gray-50 to-gray-100 text-gray-900'}
+            ? 'bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 text-gray-100'
+            : 'bg-linear-to-br from-white via-gray-50 to-gray-100 text-gray-900'}
         `}
       >
         {children}
