@@ -1,0 +1,23 @@
+export const products = [
+  { id: 1,  name: "Wireless Earbuds Pro", price: 99.99 },
+  { id: 2,  name: "SmartWatch Elite", price: 199.99 },
+  { id: 3,  name: "Premium Bluetooth Speaker", price: 79.99 },
+  { id: 4,  name: "Ergonomic Laptop Stand", price: 29.99 },
+  { id: 5,  name: "Noise Cancelling Headphones", price: 149.99 },
+  { id: 6,  name: "Mechanical Gaming Keyboard RGB", price: 89.99 },
+  { id: 7,  name: "Ultra-Slim Wireless Mouse", price: 24.99 },
+  { id: 8,  name: "4K USB-C External Monitor", price: 299.99 },
+  { id: 9,  name: "Portable Power Bank 20000mAh", price: 49.99 },
+  { id: 10, name: "Smart Home Voice Assistant Hub", price: 129.99 },
+  { id: 11, name: "Adjustable Standing Desk Converter", price: 179.99 },
+  { id: 12, name: "HD Webcam with Auto Focus", price: 59.99 },
+  { id: 13, name: "Fast Wireless Charging Pad", price: 34.99 },
+  { id: 14, name: "Gaming Headset with Surround Sound", price: 109.99 },
+  { id: 15, name: "USB-C Multiport Docking Station", price: 69.99 },
+  { id: 16, name: "Smart LED Desk Lamp with Touch Control", price: 39.99 },
+  { id: 17, name: "Bluetooth Fitness Tracker Band", price: 54.99 },
+  { id: 18, name: "Noise-Isolating Studio Microphone", price: 119.99 },
+  { id: 19, name: "Foldable Laptop Backpack Waterproof", price: 64.99 },
+  { id: 20, name: "Compact Travel Adapter Worldwide", price: 22.99 },
+  { id: 21, name: "Wireless Gaming Earpods", price: 40.99 }
+];
